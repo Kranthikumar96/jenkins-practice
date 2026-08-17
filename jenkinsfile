@@ -25,7 +25,6 @@ pipeline {
                     sh """
                         echo "Hello Build"
                         env
-                        echo "Hello ${params.PERSON}"
                     """
                 }
             }
